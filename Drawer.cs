@@ -15,14 +15,14 @@ namespace EverydayTasks
 
         public int currentFrame = 0;
         public MyForm myForm1;
-        public MyForm2 myForm2;
+        //public MyForm2 myForm2;
 
         public Drawer()
         {
             // make it look new and run the form
             Application.EnableVisualStyles();
             myForm1 = new MyForm(this);
-            myForm2 = new MyForm2(this);
+            //myForm2 = new MyForm2(this);
             RunFirst();
 
             
